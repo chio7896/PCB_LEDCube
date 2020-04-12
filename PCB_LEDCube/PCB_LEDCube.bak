@@ -301,6 +301,8 @@ Wire Wire Line
 Connection ~ 610  1200
 Wire Notes Line
 	480  2200 5710 2200
+Wire Notes Line
+	5710 2200 5710 370 
 $Comp
 L Regulator_Linear:L7805 U?
 U 1 1 5E95FAEB
@@ -380,12 +382,12 @@ Wire Wire Line
 	890  2900 900  2900
 Wire Wire Line
 	900  2900 900  3500
-Text Notes 500  2300 0    50   ~ 0
-Regulator 5V\n
+Text Notes 490  2390 0    50   ~ 0
+Regulador 5V\n
 Wire Notes Line
-	480  2310 1020 2310
+	470  2400 1010 2400
 Wire Notes Line
-	1020 2310 1020 2210
+	1010 2400 1010 2300
 $Comp
 L Regulator_Linear:LF33_TO220 U?
 U 1 1 5E96FDDE
@@ -543,16 +545,4 @@ $EndComp
 Wire Wire Line
 	5390 2510 5390 2880
 Connection ~ 5390 2880
-Wire Notes Line
-	470  3900 5710 3900
-Wire Notes Line
-	5710 370  5710 3900
-Wire Notes Line
-	3000 2200 3000 3900
-Text Notes 3010 2290 0    50   ~ 0
-Regulator 3.3V
-Wire Notes Line
-	3000 2300 3590 2300
-Wire Notes Line
-	3590 2300 3590 2200
 $EndSCHEMATC
